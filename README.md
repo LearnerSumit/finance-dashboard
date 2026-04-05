@@ -358,6 +358,3 @@ All error responses follow a consistent format:
 - Organization/team-level data scoping
 - Soft delete for users as well
 - Full-text search using MongoDB Atlas Search
-- Unit and integration tests (Jest + Supertest)
-- OpenAPI / Swagger documentation
-- Docker + docker-compose setup
