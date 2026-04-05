@@ -322,16 +322,6 @@ All error responses follow a consistent format:
 
 ---
 
-## Demo Credentials (after running `npm run seed`)
-
-| Role    | Email               | Password    |
-|---------|---------------------|-------------|
-| Admin   | admin@demo.com      | password123 |
-| Analyst | analyst@demo.com    | password123 |
-| Viewer  | viewer@demo.com     | password123 |
-
----
-
 ## Assumptions Made
 
 1. **Soft delete for transactions**: Deleted transactions are flagged with `isDeleted: true` rather than removed from the database — this preserves audit history and allows recovery.
